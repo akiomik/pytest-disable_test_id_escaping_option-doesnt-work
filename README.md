@@ -1,0 +1,3 @@
+```sh
+pipenv run pytest
+```
