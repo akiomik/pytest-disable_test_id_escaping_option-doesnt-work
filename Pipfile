@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pytest = "*"
+pytest = {git = "https://github.com/akiomik/pytest",ref = "fix-disable_test_id_escaping-option"}
 
 [requires]
 python_version = "3.7"
